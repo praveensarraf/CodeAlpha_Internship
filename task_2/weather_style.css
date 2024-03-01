@@ -117,9 +117,21 @@
 
   /* ------------------------------------ */
   
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 992px) {
     .app-main {
-      width: 90%;
+      width: 40vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .app-main {
+      width: 60vw;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .app-main {
+      width: 90vw;
       padding: 10px;
     }
   }
